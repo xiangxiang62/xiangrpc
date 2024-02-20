@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/example-common/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/example-consumer/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/example-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/xiang-rpc-easy/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="example-provider" />
+        <module name="example-common" />
+        <module name="xiang-rpc-easy" />
+        <module name="example-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ear" target="1.5" />
+      <module name="ejbs" target="1.7" />
+      <module name="logging" target="1.7" />
+      <module name="primary-source" target="1.7" />
+      <module name="project" target="1.5" />
+      <module name="projects" target="1.5" />
+      <module name="servlet" target="1.7" />
+      <module name="servlets" target="1.5" />
+      <module name="untitled" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
