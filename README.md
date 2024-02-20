@@ -15,7 +15,7 @@ Vert.x 官方文档：https://vertx.io/
 ### 3. provide 模块
 > 服务提供者：实现 common 公共模块中的 UserService 接口，供 consumer 服务消费者调用。
 
-### 4. xiang-rpc-easy
+### 4. xiang-rpc-easy 模块
 > 简易版 RPC 框架：Web 服务器。
 > 
 要让服务提供者提供可以远程访问的服务。就需要一个服务器，能够接收处理请求并返回响应。
