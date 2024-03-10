@@ -12,9 +12,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="example-provider" />
-        <module name="example-common" />
         <module name="xiang-rpc-easy" />
+        <module name="example-provider" />
+        <module name="xiang-rpc-core" />
+        <module name="example-common" />
         <module name="example-consumer" />
       </profile>
     </annotationProcessing>
@@ -28,6 +29,8 @@
       <module name="servlet" target="1.7" />
       <module name="servlets" target="1.5" />
       <module name="untitled" target="1.7" />
+      <module name="xiang-rpc-easy (1)" target="1.8" />
+      <module name="xiang-rpc-easy (2)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
