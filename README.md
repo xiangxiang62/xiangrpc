@@ -50,3 +50,8 @@ Vert.x 官方文档：https://vertx.io/
 
 1. 启动 `provider` 服务提供者；
 2. 在 `consumer` 中的 `EasyConsumerExample` 方法进行调用（动态 / 静态）；
+
+### 2.0 - 根据读取配置文件启动项目
+### 启动方法：
+1. 在服务消费者中的配置文件中编写配置信息。
+2. 启动服务消费者中的 `ProviderExample` 即可。
